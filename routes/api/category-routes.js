@@ -42,10 +42,14 @@ router.post('/', async (req, res) => {    // working
   }
 });
 
-router.put('/:id', async (req, res) => {   //not working currently
+router.put('/:id', async (req, res) => {   // working
   // update a category by its `id` value
   try {
-    const categoryData = await Category.update(req.body, {
+    const categoryData = await Category.update(
+      {
+        category_name: req.body.category_name,
+      }, 
+      {
       where: {id: req.params.id}
     })
 
