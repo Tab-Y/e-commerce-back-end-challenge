@@ -3,7 +3,9 @@
 
 ## Description 
 
-TBD
+This project is the backend logic and pathing for a small business to update products and associate the products with key words, or variables.
+It allows the user to manage inventory, product names, and other various details within the database, through adding new items, updating and deleting.
+As well as searching for each input by number.
  
 ## Table of Contents
  
@@ -11,10 +13,6 @@ TBD
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
-- [Features](#features)
-- [Questions](#questions)
-- [Tests](#tests) 
 
 ##  Installation 
 
@@ -22,9 +20,11 @@ TBD
 
 ## Usage 
 
-TBD 
+Walkthrough Video : https://app.castify.com/view/cd2a4e89-e8c7-4b09-a3b5-03ce02b35fa3
 
-![Descriptive text](assets/images/screenshot.png) 
+![Get Screenshot](./assets/img/get-cat-screenshot.png) 
+![Post Screenshot](./assets/img/post-cat-screenshot.png)
+![Delete Screenshot](./assets/img/delete-cat-screenshot.png)
 
 ## Credits 
 
@@ -35,20 +35,3 @@ n/a
 MIT License 
 Please refer to License in repository.  
  
-
-## Badges 
-
-Add badges to this section 
-
-## Features 
-
-Add features to this space 
-
-## Questions 
-
-If you have any questions or concerns, please reach out to Tab-Y at tlyoumans@gmail.com. 
-
-## Tests 
-
-n/a 
-
