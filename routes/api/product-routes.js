@@ -121,7 +121,7 @@ router.delete('/:id', async (req, res) => {
     if (!productData) {
       res.status(404).json({ message: 'No product found with this id. Please check your input and try again.'})
     }
-    res.status(200).json(productData);
+    res.status(200).json({message: `id ${req.params.id} has been deleted.`});
   } catch (err) {
     res.status(500).json(err)
   }
